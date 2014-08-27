@@ -42,6 +42,7 @@ gerekli alana server uygulamasının çalıştığı bilgisayarın ip'si giriler
 
 Stub dosyasını oluşturma:
 server klasörü içerisinde bulunan RmiServer dosyası derlenerek .class dosyası oluturulur.
->> javac RmiServer.java
+> javac RmiServer.java
+
 Daha sonra oluşturulan derlenmiş dosya Rmi Stub Compiler ile tekrar derlenerek stub dosyası oluşturulur.
->> rmic RmiServer.class
+> rmic RmiServer.class
