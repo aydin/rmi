@@ -41,7 +41,7 @@ olarak paketlenmiş java -jar rmi.jar komutu ile client uygulaması başlatılı
 gerekli alana server uygulamasının çalıştığı bilgisayarın ip'si girilerek bağlantı sağlanır.
 
 Stub dosyasını oluşturma:
-server klasörü içerisinde bulunan RmiServer dosyası derlenerek .class dosyası oluturulur.
+server klasörü içerisinde bulunan RmiServer dosyası derlenerek .class dosyası oluşturulur.
 > javac RmiServer.java
 
 Daha sonra oluşturulan derlenmiş dosya Rmi Stub Compiler ile tekrar derlenerek stub dosyası oluşturulur.
